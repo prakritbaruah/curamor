@@ -9,13 +9,6 @@ This is a simple landing page built with HTML and CSS to:
 - Collect early user feedback
 - Test messaging and value proposition
 
-## Features
-
-- Clean, modern design
-- Responsive layout
-- Key feature highlights
-- Call-to-action buttons
-- Contact form
 
 ## Local Development
 
