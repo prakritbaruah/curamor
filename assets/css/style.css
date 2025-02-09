@@ -11,9 +11,10 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #548cdc;
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 .nav-links a {
     margin-left: 2rem;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     transition: color 0.3s;
 }
 
@@ -72,7 +73,7 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #528cdc;
+    background-color: #548cdc;
     color: white;
     text-decoration: none;
     border-radius: 5px;
