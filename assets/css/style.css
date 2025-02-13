@@ -132,13 +132,18 @@ nav {
 }
 
 .cta-button {
-    display: inline-block;
-    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    padding: 0.75rem 2rem;
     background-color: #548cdc;
     color: white;
     text-decoration: none;
+    border: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
@@ -236,7 +241,7 @@ nav {
 }
 
 .testimonial-image {
-    order: -1; /* This ensures the image appears first */
+    order: -1;
 }
 
 .testimonial-image img {
@@ -272,27 +277,6 @@ nav {
     align-items: center;
 }
 
-.testimonial {
-    margin-bottom: 2rem;
-    font-style: italic;
-}
-
-.testimonial-image img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-/* 
-.get-started {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-} */
-
 footer {
     background-color: #333;
     color: white;
@@ -308,25 +292,6 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-
-.cta-button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #528cdc;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #0056b3;
 }
 
 /* Signup section */
@@ -353,7 +318,7 @@ footer a:hover {
 
 .signup-section .cta-button {
     padding: 0.5rem 1rem;
-    background-color: #007bff;
+    background-color: #548cdc;
     color: white;
     border: none;
     border-radius: 5px;
@@ -366,13 +331,12 @@ footer a:hover {
 }
 
 .full-page {
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #f9f9f9; */
     padding: 2rem;
     box-sizing: border-box;
 }
@@ -388,6 +352,6 @@ footer a:hover {
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
     width: 100%;  /* Changed from 200px to be responsive */
-    max-width: 600px;  /* Added max-width for larger screens */
+    max-width: 400px;  /* Added max-width for larger screens */
 }
 
